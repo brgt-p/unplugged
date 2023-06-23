@@ -88,104 +88,27 @@ textarea {
    ========================================================================== */
 
 .content-wrapper {
-  outline: 1px solid red;
+  outline: 3px solid red;
+  width: 90%;
 }
 
-/********** BASE HEADER FOOTER STYLES **********/
-
-header,
-footer {
-
-}
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-p {
-
-}
+/********** BASE HEADER / FOOTER STYLES **********/
 
 header {
   display: flex;
   justify-content: center;
-
 }
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
-
-}
-
-.logo {
-
-}
-
-.header-divider {
-
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
+  display: flex;
   justify-content: space-around;
-}
-
-.hero-area {
-  justify-content: center;
-}
-
-.newsletter-signup {
-  justify-content: center;
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
-input[text] {
-
-}
-
-input[button] {
-
-}
-
-.features {
-  justify-content: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.features-items {
-
-}
-
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
-}
-
-.reviews {
-  justify-content: center;
 }
 
 footer {
@@ -195,30 +118,71 @@ footer {
   text-align: center;
 }
 
-footer .content-wrapper {
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
   display: flex;
   justify-content: center;
-
+  align-items: center;
 }
 
-.footer-content {
+/********** MOBILE STYLES **********/
 
+.hero-area {
+  display: flex;
+  justify-content: center;
 }
 
-.footer-contact {
-
+aside {
+  display: flex;
+  justify-content: center;
 }
 
-.social {
-
+.features {
+  display: flex;
+  justify-content: center;
 }
 
-.social-icons {
-
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 
-.copyright {
+.reviews {
+  display: flex;
+  justify-content: center;
+}
 
+/********** ABOUT PAGE **********/
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+/********** FAQ PAGE **********/
+
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 
@@ -315,9 +279,9 @@ footer .content-wrapper {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -328,6 +292,7 @@ footer .content-wrapper {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -395,4 +360,3 @@ footer .content-wrapper {
     page-break-after: avoid;
   }
 }
-
