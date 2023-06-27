@@ -347,7 +347,7 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:768px) {
   /* Tablet Styles here */
 
   .content-wrapper {
@@ -411,7 +411,7 @@ aside {
 
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    /* margin: 100px 0; */
   }
 
   .footer-content {
@@ -470,6 +470,13 @@ aside {
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles here */
 
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
