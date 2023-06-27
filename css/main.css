@@ -350,11 +350,13 @@ aside {
 @media only screen and (min-width:768px) {
   /* Tablet Styles here */
 
+  /* General styles */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
 
+  /* Header */
   header {
     padding: 33px 0;
   }
@@ -376,6 +378,8 @@ aside {
     display: none;
   }
 
+  /* Hero Area*/
+  /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -389,6 +393,7 @@ aside {
     margin: 0;
   }
 
+  /* Features */
   .features article {
     display: flex;
     align-items: center;
@@ -400,6 +405,7 @@ aside {
     width: 50%;
   }
 
+  /* Reviews */
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -409,9 +415,9 @@ aside {
     width: 49%;
   }
 
+  /* Footer */
   footer .content-wrapper {
     width: 65%;
-    /* margin: 100px 0; */
   }
 
   .footer-content {
@@ -428,7 +434,7 @@ aside {
     width: 100%;
   }
 
-  /* About Page */
+  /*** About Page ***/
 
   .mission-content {
     display: flex;
@@ -451,7 +457,7 @@ aside {
     align-items: flex-start;
   }
 
-  /* FAQ Page */
+  /*** FAQ Page ***/
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -464,24 +470,26 @@ aside {
   .faq h2 {
     width: 100%;
   }
-
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
   /* Desktop Styles here */
 
+  /* General styles */
   .content-wrapper {
     max-width: 960px;
   }
-
+  /* Header */
   header {
     padding: 15px 0;
   }
 
+  /* Hero */
   .hero-area h1 {
     width: 80%;
   }
 
+  /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -491,6 +499,7 @@ aside {
     width: 30%;
   }
 
+  /* Features */
   .features h2 {
     width: 90%;
   }
@@ -499,18 +508,19 @@ aside {
     flex-basis: 33%;
   }
 
+  /* Reviews */
   .reviews article div {
     width: 42%;
   }
 
-  /* About Page */
+  /*** About Page ***/
 
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
   }
 
-  /* FAQ Page */
+  /*** FAQ Page ***/
 
   .faq h2 {
     width: 100%;
