@@ -87,6 +87,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/********** GENERAL STYLES **********/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+
+}
+
+a {
+
+}
+
+h2 {
+
+}
+
+h3,
+h4 {
+
+}
+
+p {
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
 .content-wrapper {
   outline: 3px solid red;
   width: 90%;
